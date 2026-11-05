@@ -1,0 +1,11 @@
+# Letter Loom website
+
+This is a build-free static site configured for Netlify. Import this repository into Netlify, or drag this folder into Netlify Drop. For Git-based deployment, use no build command and the repository root (`.`) as the publish directory; `netlify.toml` supplies the publish directory and app-ads.txt content type. Add `letterloom.datatra.sh` as a custom domain in Netlify and follow Netlify's DNS and HTTPS setup. Preserve `privacy/index.html` and the `assets` directory. No server runtime or dependencies are required.
+
+- Website / Play Console developer website: https://letterloom.datatra.sh/
+- Privacy policy / AdMob consent and Play Console: https://letterloom.datatra.sh/privacy/
+- Authorized ad sellers: https://letterloom.datatra.sh/app-ads.txt
+
+Before publishing, review the privacy policy against your actual hosting provider, advertising settings, audience, and data practices. The intended audience is currently adults. Confirm the publisher ID line in `app-ads.txt` matches the personalized snippet in AdMob. Google may check the developer website's subdomain or parent domain; check the exact URL AdMob reports and host the file there if needed. After deployment, confirm all three URLs work publicly over HTTPS. Do not use the privacy policy URL until it is deployed and reviewed.
+
+The app's Google Play listing does not yet exist, so the site intentionally says “Coming to Android”. Once published, replace that label with a real Play Store link. Nunito's license is in `assets/NUNITO_LICENSE.txt`; screenshots and icon are from this project.

@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/app-ads.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    X-Content-Type-Options = "nosniff"
