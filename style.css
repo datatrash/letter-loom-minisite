@@ -2,3 +2,8 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .language-select{font:800 13px Nunito,system-ui,sans-serif;color:#263e37;border:1px solid #b8c8b6;border-radius:25px;background:#faf7ee;padding:9px 10px;cursor:pointer}.header nav{margin-left:auto;margin-right:24px}@media(max-width:760px){.header nav{margin-right:10px}.language-select{max-width:130px}}
+
+/* A subtle woven texture echoes the Letter Loom icon. */
+.modes{background-color:#e8eee1;background-image:repeating-linear-gradient(45deg,rgba(91,119,85,.035) 0,rgba(91,119,85,.035) 2px,transparent 2px,transparent 8px),repeating-linear-gradient(-45deg,rgba(255,255,255,.12) 0,rgba(255,255,255,.12) 2px,transparent 2px,transparent 8px)}
+.art-blob,.mode-ring{background-image:repeating-linear-gradient(45deg,rgba(91,119,85,.07) 0,rgba(91,119,85,.07) 2px,transparent 2px,transparent 9px),repeating-linear-gradient(-45deg,rgba(255,255,255,.18) 0,rgba(255,255,255,.18) 2px,transparent 2px,transparent 9px)}
+.steps article{outline:1px dashed rgba(165,130,94,.35);outline-offset:-9px}
